@@ -2,11 +2,11 @@ from collatz import collatz as cll
 
 
 def largestNumber(ls):
-    maxNum = 0
+    maxnum = 0
     for i in ls:
-        if i > maxNum:
-            maxNum = i
-    return maxNum
+        if i > maxnum:
+            maxnum = i
+    return maxnum
 
 
 if __name__ == '__main__':
